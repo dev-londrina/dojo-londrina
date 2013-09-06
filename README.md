@@ -1,7 +1,6 @@
 dojo-londrina
 =============
 
-Dojo Londrina
 
 Dojo é um encontro de desenvolvedores para praticar técnicas de desenvolvimento orientado a testes, programação em par e refatoração.
 
