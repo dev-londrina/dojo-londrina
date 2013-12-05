@@ -4,8 +4,8 @@ Before do
   @mao = Mao.new
 end
 
-Dado(/^uma mão com as cartas "(.*?)"$/) do |arg1|
-  @mao.carregar_cartas(arg1)
+Dado(/^uma mão com as cartas "(.*?)"$/) do |cartas|
+  @mao.carregar_cartas(cartas)
 end
 
 Então(/^a carta maior sera "(.*?)"$/) do |arg1|

@@ -4,6 +4,7 @@ class Mao
 
   def carregar_cartas(cartas)
     @cartas = cartas.split
+    self
   end
 
   def carta_maior
@@ -16,23 +17,26 @@ class Mao
   end
 
   def jogada
-    if(grupo_de_cartas.keys.size == 4)
-      "uma dupla"
-    elsif (grupo_de_cartas.keys.size == 3)
-      maior_grupo = 0
-      grupo_de_cartas.each do |key, value|
-        maior_grupo = value.size if value.size > maior_grupo
-      end
-      if maior_grupo == 2
-        "duas duplas"
-      else
-        "trinca"
-      end
+    duplas = 0
+    trincas = 0
+
+    grupo_de_cartas.each do |key, cards|
+      duplas += 1 if cards.size == 2
+      trincas += 1 if cards.size == 3
     end
+
+    transforma_cartas_em_texto(duplas, trincas)
   end
 
   private
+
   def grupo_de_cartas
-    @cartas.group_by{ |carta| carta[0] }
+    @cartas.group_by {|carta| carta[0]}
+  end
+
+  def transforma_cartas_em_texto(duplas, trincas)
+    return "trinca" if trincas == 1
+    return "uma dupla" if duplas == 1
+    return "duas duplas" if duplas == 2
   end
 end

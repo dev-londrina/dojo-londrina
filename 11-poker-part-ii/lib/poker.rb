@@ -1,15 +1,20 @@
 class Poker
-    
+  SEQUENCIA = ["uma dupla", "duas duplas", "trinca"]
+
   def vencedor
-    if @jogadas["1"] == "5H 5C 6S 7S KD"
+    jogada1 = SEQUENCIA.index(@maos[0].jogada)
+    jogada2 = SEQUENCIA.index(@maos[1].jogada)
+    if jogada1 > jogada2
+      "1"
+    elsif jogada2 > jogada1
       "2"
     else
-      "1"
+      "empate"
     end
   end
-  
+
   def carregar_cartas(numero_do_jogador, cartas)
-    @jogadas ||= {}
-    @jogadas[numero_do_jogador] = cartas
+    @maos ||= []
+    @maos << Mao.new.carregar_cartas(cartas)
   end
 end

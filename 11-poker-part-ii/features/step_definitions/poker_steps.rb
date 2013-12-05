@@ -11,3 +11,7 @@ end
 Então(/^o vencedor deve ser o jogador (\d+)$/) do |arg1|
   @poker.vencedor.should == arg1
 end
+
+Então(/^deve ser empate$/) do
+  @poker.vencedor.should == 'empate'
+end
