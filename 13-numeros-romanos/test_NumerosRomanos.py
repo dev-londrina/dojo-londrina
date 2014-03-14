@@ -1,3 +1,4 @@
+#encoding:utf-8
 import unittest
 from NumerosRomanos import NumerosRomanos
 
