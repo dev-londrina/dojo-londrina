@@ -1,0 +1,11 @@
+{
+  "name": "expediente",
+  "description": "Dojo 15.",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
