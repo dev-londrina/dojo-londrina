@@ -1,0 +1,8 @@
+{
+  "name": "todomvc-react",
+  "version": "0.0.0",
+  "dependencies": {
+    "es5-shim": "~4.0.5",
+    "react": "~0.12.0"
+  }
+}
