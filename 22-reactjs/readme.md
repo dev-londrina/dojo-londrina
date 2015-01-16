@@ -18,4 +18,4 @@ Para executar os testes, precisa-se do [Casper.js](http://casperjs.org) instalad
 # Quem participou?
 
 * [Evento do meetup](http://www.meetup.com/dojolondrina/events/219694055/)
-* ![Galera no 22 Dojo Londrina](http://photos4.meetupstatic.com/photos/event/c/e/f/c/highres_433372988.jpeg)
+* [Fotos do encontro](http://www.meetup.com/dojolondrina/photos/25851247/)
