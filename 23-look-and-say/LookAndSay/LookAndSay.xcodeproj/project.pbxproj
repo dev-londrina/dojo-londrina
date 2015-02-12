@@ -13,6 +13,8 @@
 		729CA41B1A8D4FC300842AA7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729CA41A1A8D4FC300842AA7 /* Images.xcassets */; };
 		729CA41E1A8D4FC300842AA7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 729CA41C1A8D4FC300842AA7 /* LaunchScreen.xib */; };
 		729CA42A1A8D4FC300842AA7 /* LookAndSayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729CA4291A8D4FC300842AA7 /* LookAndSayTests.swift */; };
+		729CA4381A8D549300842AA7 /* OlhaEFala.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729CA4371A8D549300842AA7 /* OlhaEFala.swift */; };
+		729CA4391A8D549300842AA7 /* OlhaEFala.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729CA4371A8D549300842AA7 /* OlhaEFala.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		729CA4231A8D4FC300842AA7 /* LookAndSayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LookAndSayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		729CA4281A8D4FC300842AA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		729CA4291A8D4FC300842AA7 /* LookAndSayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookAndSayTests.swift; sourceTree = "<group>"; };
+		729CA4371A8D549300842AA7 /* OlhaEFala.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OlhaEFala.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 				729CA41A1A8D4FC300842AA7 /* Images.xcassets */,
 				729CA41C1A8D4FC300842AA7 /* LaunchScreen.xib */,
 				729CA4111A8D4FC300842AA7 /* Supporting Files */,
+				729CA4371A8D549300842AA7 /* OlhaEFala.swift */,
 			);
 			path = LookAndSay;
 			sourceTree = "<group>";
@@ -213,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				729CA4161A8D4FC300842AA7 /* ViewController.swift in Sources */,
+				729CA4381A8D549300842AA7 /* OlhaEFala.swift in Sources */,
 				729CA4141A8D4FC300842AA7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				729CA42A1A8D4FC300842AA7 /* LookAndSayTests.swift in Sources */,
+				729CA4391A8D549300842AA7 /* OlhaEFala.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
