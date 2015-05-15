@@ -1,0 +1,505 @@
+New log file opened at Thu May 14 21:27:07 BRT 2015 by 20534@dagobah
+jvm 20534@dagobah
+jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=24.80-b11
+jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.7
+jvm arguments: [-javaagent:/usr/share/java/jayatanaag.jar, -Xms256m, -Xmx1024m]
+Starting event engine
+Starting sbt command engine
+Waiting for sbt command engine
+Command engine arguments=List()
+Command engine baseDirectory=/home/pedro/projetos/misc/dojo-londrina/26-intervalos
+Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
+> --initialize
+> initialize
+> onFailure load-failed
+> boot
+> reload
+[Loading] Scanning directory /home/pedro/projetos/misc/dojo-londrina/26-intervalos/project
+[Loading] Found non-root projects 
+[Loading] Done in /home/pedro/projetos/misc/dojo-londrina/26-intervalos/project, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /home/pedro/projetos/misc/dojo-londrina/26-intervalos/project, returning: (root-26-intervalos-build)
+Loading project definition from /home/pedro/projetos/misc/dojo-londrina/26-intervalos/project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@6dd1627e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+[Loading] Scanning directory /home/pedro/projetos/misc/dojo-londrina/26-intervalos
+[Loading] Found non-root projects 
+[Loading] Done in /home/pedro/projetos/misc/dojo-londrina/26-intervalos, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(play.Play))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.SerializersPlugin))), Clause(Atom(play.Play),Set(Atom(com.typesafe.sbt.webdriver.SbtWebDriver))), Clause(Atom(play.Play),Set(Atom(play.twirl.sbt.SbtTwirl))), Clause(Atom(play.Play),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(play.PlayJava),Set(Atom(play.Play))), Clause(Atom(play.PlayScala),Set(Atom(play.Play))), Clause(Atom(play.twirl.sbt.SbtTwirl),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(com.typesafe.sbt.webdriver.SbtWebDriver),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin))), Clause(And(Set(Atom(sbt.plugins.BackgroundRunPlugin), Atom(play.Play), Atom(sbt.plugins.SerializersPlugin))),Set(Atom(play.sbt.forkrun.PlayForkRun))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.webdriver.SbtWebDriver)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.SerializersPlugin,sbt.plugins.SendEventServicePlugin,sbt.plugins.InteractionServicePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.BackgroundRunPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /home/pedro/projetos/misc/dojo-londrina/26-intervalos, returning: (root-26-intervalos)
+Set current project to hello-scala (in build file:/home/pedro/projetos/misc/dojo-londrina/26-intervalos/)
+Reapplying settings...
+Set current project to hello-scala (in build file:/home/pedro/projetos/misc/dojo-londrina/26-intervalos/)
+> iflast shell
+> server-send-ready-for-request
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@2b047034, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 14/05/2015 21:27:14
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/pedro/projetos/misc/dojo-londrina/26-intervalos/}root-26-intervalos/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@38c137c3, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 14/05/2015 21:27:15
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/pedro/projetos/misc/dojo-londrina/26-intervalos/}root-26-intervalos/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@ed9b84b, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 14/05/2015 21:27:16
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@606d1dc6, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Framework implementation 'com.novocode.junit.JUnitFramework' not present.
+Subclass fingerprints: List((org.scalatest.Suite,false,org.scalatest.tools.Framework$$anon$1@14dbcf58))
+Annotation fingerprints: List((org.scalatest.WrapWith,false,org.scalatest.tools.Framework$$anon$2@7aec200f))
+Running TaskDef(IntervaloSpec, org.scalatest.tools.Framework$$anon$1@14dbcf58, false, [SuiteSelector])
+Read from stdout: IntervaloSpec:
+Read from stdout: Intervalo
+Read from stdout: - should agrupar 1 elemento
+Read from stdout: Intervalo
+Read from stdout: - should agrupar dois elementos desordenados e fora do intervalo
+Read from stdout: Intervalo
+Read from stdout: - should agrupar tres elementos desordenados e fora do intervalo
+Read from stdout: Intervalo
+Read from stdout: - should agrupar dois elementos desordenados e sequenciais
+Read from stdout: Intervalo
+Read from stdout: - should agrupar varios elementos desordenados em duas sequencias *** FAILED ***
+Read from stdout: List(List(1, 2), List(4, 5, 6)) was not equal to List(List(1, 2), List(4, 6)) (IntervaloSpec.scala:21)
+[32mIntervaloSpec:[0m
+[32mIntervalo[0m
+[32m- should agrupar 1 elemento[0m
+[32mIntervalo[0m
+[32m- should agrupar dois elementos desordenados e fora do intervalo[0m
+[32mIntervalo[0m
+[32m- should agrupar tres elementos desordenados e fora do intervalo[0m
+[32mIntervalo[0m
+[32m- should agrupar dois elementos desordenados e sequenciais[0m
+[32mIntervalo[0m
+[31m- should agrupar varios elementos desordenados em duas sequencias *** FAILED ***[0m
+[31m  List(List(1, 2), List(4, 5, 6)) was not equal to List(List(1, 2), List(4, 6)) (IntervaloSpec.scala:21)[0m
+Read from stdout: Run completed in 570 milliseconds.
+Read from stdout: Total number of tests run: 5
+Read from stdout: Suites: completed 1, aborted 0
+Read from stdout: Tests: succeeded 4, failed 1, canceled 0, ignored 0, pending 0
+Read from stdout: *** 1 TEST FAILED ***
+36mRun completed in 570 milliseconds.0m
+36mTotal number of tests run: 50m
+36mSuites: completed 1, aborted 00m
+36mTests: succeeded 4, failed 1, canceled 0, ignored 0, pending 00m
+31m*** 1 TEST FAILED ***0m
+Read from stdout: Failed tests:
+Failed tests:
+Read from stdout: 	IntervaloSpec
+	IntervaloSpec
+Read from stdout: (test:test) sbt.TestsFailedException: Tests unsuccessful
+(test:31mtest0m) sbt.TestsFailedException: Tests unsuccessful
+Total time: 2 s, completed 14/05/2015 21:27:18
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/pedro/projetos/misc/dojo-londrina/26-intervalos/}root-26-intervalos/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@4f1b1f00, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 14/05/2015 21:27:19
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/pedro/projetos/misc/dojo-londrina/26-intervalos/}root-26-intervalos/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@e4aee6, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 14/05/2015 21:27:20
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@52271f2f, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/home/pedro/projetos/misc/dojo-londrina/26-intervalos/src/main/scala/Intervalo.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/pedro/projetos/misc/dojo-londrina/26-intervalos/src/main/scala/Intervalo.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/pedro/projetos/misc/dojo-londrina/26-intervalos/src/main/scala/Intervalo.scala)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Scala source to /home/pedro/projetos/misc/dojo-londrina/26-intervalos/target/scala-2.11/classes...
+Compiling 1 Scala source to /home/pedro/projetos/misc/dojo-londrina/26-intervalos/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.5
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.5
+Other repositories:
+Default repositories:
+Running cached compiler 196fe8b1, interfacing (CompilerInterface) with Scala compiler version 2.11.5
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	/usr/lib/jvm/java-7-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-7-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-7-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-7-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-7-oracle/jre/classes:/home/pedro/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.5.jar
+	-classpath
+	/home/pedro/projetos/misc/dojo-londrina/26-intervalos/target/scala-2.11/classes
+Scala compilation took 5.314034311 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 6 s, completed 14/05/2015 21:30:43
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@724451cb, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Framework implementation 'com.novocode.junit.JUnitFramework' not present.
+Subclass fingerprints: List((org.scalatest.Suite,false,org.scalatest.tools.Framework$$anon$1@541d911f))
+Annotation fingerprints: List((org.scalatest.WrapWith,false,org.scalatest.tools.Framework$$anon$2@2db11e7d))
+Running TaskDef(IntervaloSpec, org.scalatest.tools.Framework$$anon$1@541d911f, false, [SuiteSelector])
+Read from stdout: IntervaloSpec:
+Read from stdout: Intervalo
+Read from stdout: - should agrupar 1 elemento
+Read from stdout: Intervalo
+Read from stdout: - should agrupar dois elementos desordenados e fora do intervalo
+Read from stdout: Intervalo
+Read from stdout: - should agrupar tres elementos desordenados e fora do intervalo
+Read from stdout: Intervalo
+Read from stdout: - should agrupar dois elementos desordenados e sequenciais
+Read from stdout: Intervalo
+Read from stdout: - should agrupar varios elementos desordenados em duas sequencias
+[32mIntervaloSpec:[0m
+[32mIntervalo[0m
+[32m- should agrupar 1 elemento[0m
+[32mIntervalo[0m
+[32m- should agrupar dois elementos desordenados e fora do intervalo[0m
+[32mIntervalo[0m
+[32m- should agrupar tres elementos desordenados e fora do intervalo[0m
+[32mIntervalo[0m
+[32m- should agrupar dois elementos desordenados e sequenciais[0m
+[32mIntervalo[0m
+[32m- should agrupar varios elementos desordenados em duas sequencias[0m
+Read from stdout: Run completed in 294 milliseconds.
+Read from stdout: Total number of tests run: 5
+Read from stdout: Suites: completed 1, aborted 0
+Read from stdout: Tests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0
+Read from stdout: All tests passed.
+36mRun completed in 294 milliseconds.0m
+36mTotal number of tests run: 50m
+36mSuites: completed 1, aborted 00m
+36mTests: succeeded 5, failed 0, canceled 0, ignored 0, pending 00m
+32mAll tests passed.0m
+Passed tests:
+	IntervaloSpec
+Total time: 1 s, completed 14/05/2015 21:30:45
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@61784ae4, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 14/05/2015 21:32:52
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@31f46abc, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/home/pedro/projetos/misc/dojo-londrina/26-intervalos/src/test/scala/IntervaloSpec.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/pedro/projetos/misc/dojo-londrina/26-intervalos/src/test/scala/IntervaloSpec.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/pedro/projetos/misc/dojo-londrina/26-intervalos/src/test/scala/IntervaloSpec.scala)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Scala source to /home/pedro/projetos/misc/dojo-londrina/26-intervalos/target/scala-2.11/test-classes...
+Compiling 1 Scala source to /home/pedro/projetos/misc/dojo-londrina/26-intervalos/target/scala-2.11/test-classes...
+Getting compiler-interface from component compiler for Scala 2.11.5
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.5
+Other repositories:
+Default repositories:
+Running cached compiler 5cc8783f, interfacing (CompilerInterface) with Scala compiler version 2.11.5
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	/usr/lib/jvm/java-7-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-7-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-7-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-7-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-7-oracle/jre/classes:/home/pedro/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.5.jar
+	-classpath
+	/home/pedro/projetos/misc/dojo-londrina/26-intervalos/target/scala-2.11/test-classes:/home/pedro/projetos/misc/dojo-londrina/26-intervalos/target/scala-2.11/classes:/home/pedro/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-2.2.4.jar:/home/pedro/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.2.jar:/home/pedro/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.2.jar
+Scala compilation took 3.844256186 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Framework implementation 'com.novocode.junit.JUnitFramework' not present.
+Subclass fingerprints: List((org.scalatest.Suite,false,org.scalatest.tools.Framework$$anon$1@7d552fdd))
+Annotation fingerprints: List((org.scalatest.WrapWith,false,org.scalatest.tools.Framework$$anon$2@2d448b2b))
+Running TaskDef(IntervaloSpec, org.scalatest.tools.Framework$$anon$1@7d552fdd, false, [SuiteSelector])
+Read from stdout: IntervaloSpec:
+Read from stdout: Intervalo
+Read from stdout: - should agrupar 1 elemento
+[32mIntervaloSpec:[0m
+[32mIntervalo[0m
+[32m- should agrupar 1 elemento[0m
+sbt appears to be exiting abnormally.
+  The log file for this session is at /tmp/sbt-server-3659200991078534826.log
+command engine thread crash java.lang.OutOfMemoryError: PermGen space
+java.lang.OutOfMemoryError: PermGen space
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Unexpected error java.lang.Exception: command engine thread crashed
+java.lang.Exception: command engine thread crashed
+	at sbt.server.SbtServer$$anon$1.run(SbtServer.scala:64)
+Caused by: java.lang.OutOfMemoryError: PermGen space
+Closing the 20534@dagobah logs at Thu May 14 21:33:00 BRT 2015, goodbye.

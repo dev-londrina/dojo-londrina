@@ -1,0 +1,7 @@
+New log file opened at Thu May 14 21:33:06 BRT 2015 by 20831@dagobah
+Taking next connection to: 24685
+New client attempting to connect on port: 40643-24685
+  Address = /127.0.1.1:24685
+This client on port 40643 has uuid cbec8d04-3710-4cd6-a6c6-e7762981e232 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-cbec8d04-3710-4cd6-a6c6-e7762981e232
+Taking next connection to: 24685
