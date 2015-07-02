@@ -1,0 +1,5 @@
+C:\Users\Felipe\Desktop\Dojo1806\Dojo1806\obj\Debug\Dojo1806.csprojResolveAssemblyReference.cache
+C:\Users\Felipe\Desktop\Dojo1806\Dojo1806\bin\Debug\Dojo1806.dll
+C:\Users\Felipe\Desktop\Dojo1806\Dojo1806\bin\Debug\Dojo1806.pdb
+C:\Users\Felipe\Desktop\Dojo1806\Dojo1806\obj\Debug\Dojo1806.dll
+C:\Users\Felipe\Desktop\Dojo1806\Dojo1806\obj\Debug\Dojo1806.pdb
