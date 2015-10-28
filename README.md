@@ -20,11 +20,11 @@ http://www.meetup.com/dojolondrina/
 Canal no Slack
 --------------
 
-![Canal dev-londrina no Slack](https://slackin-devlondrina.herokuapp.com/badge.svg)
+![Canal dev-londrina no Slack](https://slack-devlondrina.herokuapp.com/badge.svg)
 
 Se estiver interessado em bater um papo com outros programadores de Londrina em tempo real, entre em nosso canal do Slack:
 
-https://slackin-devlondrina.herokuapp.com/
+https://slack-devlondrina.herokuapp.com/
 
 Grupo no Facebook
 -----------------
