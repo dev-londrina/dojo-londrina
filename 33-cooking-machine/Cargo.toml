@@ -1,0 +1,6 @@
+[package]
+name = "33-cooking-machine"
+version = "0.1.0"
+authors = ["Pedro Casagrande de Campos <pedro@mystra.com.br>"]
+
+[dependencies]
